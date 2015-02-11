@@ -1,0 +1,8 @@
+Wed Feb 11 20:22:21 2015 [3632][-none-][FATAL] Could not connect to DB server localhost as admin. port : Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Feb 11 20:22:21 2015 [3632][-none-][FATAL] Could Not Connect: Database Is Not Connected
+Wed Feb 11 20:22:21 2015 [3632][-none-][FATAL]  Query Failed: SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = '' LIMIT 0,1: Database Is Not Connected
+Wed Feb 11 20:22:21 2015 [3632][-none-][FATAL]  Get One Failed:SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = '': Database Is Not Connected
+Wed Feb 11 20:22:21 2015 [3632][-none-][FATAL]  Query Failed: SELECT version() version LIMIT 0,1: Database Is Not Connected
+Wed Feb 11 20:22:21 2015 [3632][-none-][FATAL]  Get One Failed:SELECT version() version: Database Is Not Connected
+Wed Feb 11 21:51:22 2015 [1367][1][FATAL] SMTP -> ERROR:AUTH not accepted from server. Code: 503 Reply: 503 5.5.1 Error: authentication not enabled
+
